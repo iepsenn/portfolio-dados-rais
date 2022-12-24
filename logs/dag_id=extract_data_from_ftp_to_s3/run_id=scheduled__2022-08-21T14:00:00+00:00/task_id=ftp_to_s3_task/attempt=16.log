@@ -1,0 +1,61 @@
+[2022-08-21 16:31:51,539] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: extract_data_from_ftp_to_s3.ftp_to_s3_task scheduled__2022-08-21T14:00:00+00:00 [queued]>
+[2022-08-21 16:31:51,558] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: extract_data_from_ftp_to_s3.ftp_to_s3_task scheduled__2022-08-21T14:00:00+00:00 [queued]>
+[2022-08-21 16:31:51,558] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-21 16:31:51,559] {taskinstance.py:1377} INFO - Starting attempt 16 of 16
+[2022-08-21 16:31:51,559] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-21 16:31:51,579] {taskinstance.py:1397} INFO - Executing <Task(FTPToS3Operator): ftp_to_s3_task> on 2022-08-21 14:00:00+00:00
+[2022-08-21 16:31:51,598] {standard_task_runner.py:52} INFO - Started process 764 to run task
+[2022-08-21 16:31:51,602] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'extract_data_from_ftp_to_s3', 'ftp_to_s3_task', 'scheduled__2022-08-21T14:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/extract_data_from_ftp_to_s3.py', '--cfg-path', '/tmp/tmpxejtgwj7', '--error-file', '/tmp/tmp3romad0a']
+[2022-08-21 16:31:51,602] {standard_task_runner.py:80} INFO - Job 29: Subtask ftp_to_s3_task
+[2022-08-21 16:31:51,696] {task_command.py:371} INFO - Running <TaskInstance: extract_data_from_ftp_to_s3.ftp_to_s3_task scheduled__2022-08-21T14:00:00+00:00 [running]> on host e1202d78ead4
+[2022-08-21 16:31:51,807] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=extract_data_from_ftp_to_s3
+AIRFLOW_CTX_TASK_ID=ftp_to_s3_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-21T14:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=16
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-21T14:00:00+00:00
+[2022-08-21 16:31:51,822] {base.py:68} INFO - Using connection ID 'ftp_default' for task execution.
+[2022-08-21 16:31:52,331] {ftp.py:184} INFO - Retrieving file from FTP: /pdet/microdados/CAGED/2007/CAGEDEST_122007.7z
+[2022-08-21 16:32:04,464] {ftp.py:186} INFO - Finished retrieving file from FTP: /pdet/microdados/CAGED/2007/CAGEDEST_122007.7z
+[2022-08-21 16:32:04,482] {base.py:68} INFO - Using connection ID 'aws_default' for task execution.
+[2022-08-21 16:32:04,484] {base_aws.py:206} INFO - Credentials retrieved from login
+[2022-08-21 16:32:04,551] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/transfers/ftp_to_s3.py", line 150, in execute
+    self.__upload_to_s3_from_ftp(self.ftp_path, self.s3_key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/transfers/ftp_to_s3.py", line 109, in __upload_to_s3_from_ftp
+    acl_policy=self.acl_policy,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 63, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 91, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 610, in load_file
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 535, in get_conn
+    return self.conn
+  File "/home/airflow/.local/lib/python3.7/site-packages/cached_property.py", line 36, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 517, in conn
+    return self.get_client_type(region_name=self.region_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 481, in get_client_type
+    return session.client(client_type, endpoint_url=endpoint_url, config=config, verify=self.verify)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 309, in client
+    config=config,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/session.py", line 959, in create_client
+    api_version=api_version,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 132, in create_client
+    endpoint_bridge,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 475, in _get_client_args
+    endpoint_bridge,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 134, in get_client_args
+    proxies_config=new_config.proxies_config,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 402, in create_endpoint
+    raise ValueError("Invalid endpoint: %s" % endpoint_url)
+ValueError: Invalid endpoint: host.internal.docker:9000
+[2022-08-21 16:32:04,566] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=extract_data_from_ftp_to_s3, task_id=ftp_to_s3_task, execution_date=20220821T140000, start_date=20220821T163151, end_date=20220821T163204
+[2022-08-21 16:32:04,587] {standard_task_runner.py:97} ERROR - Failed to execute job 29 for task ftp_to_s3_task (Invalid endpoint: host.internal.docker:9000; 764)
+[2022-08-21 16:32:04,633] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-21 16:32:04,675] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

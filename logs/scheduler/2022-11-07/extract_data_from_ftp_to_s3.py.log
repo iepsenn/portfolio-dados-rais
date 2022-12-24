@@ -1,0 +1,833 @@
+[2022-11-07 12:59:45,713] {processor.py:153} INFO - Started process (PID=48518) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 12:59:45,715] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 12:59:45,716] {logging_mixin.py:115} INFO - [2022-11-07 12:59:45,716] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 12:59:46,083] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 12:59:46,235] {logging_mixin.py:115} INFO - [2022-11-07 12:59:46,235] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 12:59:46,340] {logging_mixin.py:115} INFO - [2022-11-07 12:59:46,340] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T11:00:00+00:00, run_after=2022-11-07T12:00:00+00:00
+[2022-11-07 12:59:46,406] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.704 seconds
+[2022-11-07 13:00:16,878] {processor.py:153} INFO - Started process (PID=48571) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:00:16,880] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:00:16,882] {logging_mixin.py:115} INFO - [2022-11-07 13:00:16,882] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:00:17,099] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:00:17,130] {logging_mixin.py:115} INFO - [2022-11-07 13:00:17,130] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:00:17,166] {logging_mixin.py:115} INFO - [2022-11-07 13:00:17,166] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:00:17,190] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.321 seconds
+[2022-11-07 13:00:48,045] {processor.py:153} INFO - Started process (PID=48625) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:00:48,046] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:00:48,047] {logging_mixin.py:115} INFO - [2022-11-07 13:00:48,047] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:00:48,235] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:00:48,279] {logging_mixin.py:115} INFO - [2022-11-07 13:00:48,279] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:00:48,327] {logging_mixin.py:115} INFO - [2022-11-07 13:00:48,327] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:00:48,353] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.313 seconds
+[2022-11-07 13:01:19,332] {processor.py:153} INFO - Started process (PID=48687) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:01:19,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:01:19,337] {logging_mixin.py:115} INFO - [2022-11-07 13:01:19,337] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:01:19,555] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:01:19,596] {logging_mixin.py:115} INFO - [2022-11-07 13:01:19,596] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:01:19,639] {logging_mixin.py:115} INFO - [2022-11-07 13:01:19,638] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:01:19,660] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.333 seconds
+[2022-11-07 13:01:50,329] {processor.py:153} INFO - Started process (PID=48742) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:01:50,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:01:50,335] {logging_mixin.py:115} INFO - [2022-11-07 13:01:50,334] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:01:50,553] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:01:50,603] {logging_mixin.py:115} INFO - [2022-11-07 13:01:50,603] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:01:50,654] {logging_mixin.py:115} INFO - [2022-11-07 13:01:50,654] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:01:50,682] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.359 seconds
+[2022-11-07 13:02:20,835] {processor.py:153} INFO - Started process (PID=48796) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:02:20,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:02:20,839] {logging_mixin.py:115} INFO - [2022-11-07 13:02:20,839] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:02:21,015] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:02:21,063] {logging_mixin.py:115} INFO - [2022-11-07 13:02:21,063] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:02:21,118] {logging_mixin.py:115} INFO - [2022-11-07 13:02:21,118] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:02:21,144] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.315 seconds
+[2022-11-07 13:02:51,883] {processor.py:153} INFO - Started process (PID=48859) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:02:51,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:02:51,888] {logging_mixin.py:115} INFO - [2022-11-07 13:02:51,888] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:02:52,065] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:02:52,105] {logging_mixin.py:115} INFO - [2022-11-07 13:02:52,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:02:52,148] {logging_mixin.py:115} INFO - [2022-11-07 13:02:52,148] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:02:52,174] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.297 seconds
+[2022-11-07 13:03:23,177] {processor.py:153} INFO - Started process (PID=48913) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:03:23,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:03:23,181] {logging_mixin.py:115} INFO - [2022-11-07 13:03:23,180] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:03:23,409] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:03:23,454] {logging_mixin.py:115} INFO - [2022-11-07 13:03:23,454] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:03:23,511] {logging_mixin.py:115} INFO - [2022-11-07 13:03:23,511] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:03:23,536] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.366 seconds
+[2022-11-07 13:03:53,847] {processor.py:153} INFO - Started process (PID=48976) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:03:53,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:03:53,852] {logging_mixin.py:115} INFO - [2022-11-07 13:03:53,852] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:03:54,026] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:03:54,063] {logging_mixin.py:115} INFO - [2022-11-07 13:03:54,063] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:03:54,107] {logging_mixin.py:115} INFO - [2022-11-07 13:03:54,106] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:03:54,129] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.287 seconds
+[2022-11-07 13:04:24,262] {processor.py:153} INFO - Started process (PID=49031) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:04:24,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:04:24,265] {logging_mixin.py:115} INFO - [2022-11-07 13:04:24,265] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:04:24,450] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:04:24,489] {logging_mixin.py:115} INFO - [2022-11-07 13:04:24,489] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:04:24,533] {logging_mixin.py:115} INFO - [2022-11-07 13:04:24,533] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:04:24,557] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.302 seconds
+[2022-11-07 13:04:54,866] {processor.py:153} INFO - Started process (PID=49094) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:04:54,867] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:04:54,868] {logging_mixin.py:115} INFO - [2022-11-07 13:04:54,868] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:04:55,055] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:04:55,104] {logging_mixin.py:115} INFO - [2022-11-07 13:04:55,104] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:04:55,159] {logging_mixin.py:115} INFO - [2022-11-07 13:04:55,159] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:04:55,193] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.335 seconds
+[2022-11-07 13:05:25,824] {processor.py:153} INFO - Started process (PID=49149) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:05:25,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:05:25,829] {logging_mixin.py:115} INFO - [2022-11-07 13:05:25,829] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:05:25,999] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:05:26,036] {logging_mixin.py:115} INFO - [2022-11-07 13:05:26,035] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:05:26,080] {logging_mixin.py:115} INFO - [2022-11-07 13:05:26,080] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:05:26,101] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.282 seconds
+[2022-11-07 13:05:56,399] {processor.py:153} INFO - Started process (PID=49203) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:05:56,421] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:05:56,422] {logging_mixin.py:115} INFO - [2022-11-07 13:05:56,422] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:05:56,630] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:05:56,665] {logging_mixin.py:115} INFO - [2022-11-07 13:05:56,665] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:05:56,707] {logging_mixin.py:115} INFO - [2022-11-07 13:05:56,707] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:05:56,730] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.338 seconds
+[2022-11-07 13:06:26,945] {processor.py:153} INFO - Started process (PID=49266) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:06:26,949] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:06:26,950] {logging_mixin.py:115} INFO - [2022-11-07 13:06:26,950] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:06:27,197] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:06:27,245] {logging_mixin.py:115} INFO - [2022-11-07 13:06:27,245] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:06:27,304] {logging_mixin.py:115} INFO - [2022-11-07 13:06:27,304] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:06:27,333] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.394 seconds
+[2022-11-07 13:06:57,594] {processor.py:153} INFO - Started process (PID=49320) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:06:57,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:06:57,599] {logging_mixin.py:115} INFO - [2022-11-07 13:06:57,599] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:06:57,820] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:06:57,865] {logging_mixin.py:115} INFO - [2022-11-07 13:06:57,864] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:06:57,913] {logging_mixin.py:115} INFO - [2022-11-07 13:06:57,913] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:06:57,936] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.348 seconds
+[2022-11-07 13:07:28,656] {processor.py:153} INFO - Started process (PID=49374) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:07:28,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:07:28,661] {logging_mixin.py:115} INFO - [2022-11-07 13:07:28,661] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:07:28,835] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:07:28,878] {logging_mixin.py:115} INFO - [2022-11-07 13:07:28,878] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:07:28,924] {logging_mixin.py:115} INFO - [2022-11-07 13:07:28,924] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:07:28,945] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.294 seconds
+[2022-11-07 13:07:59,016] {processor.py:153} INFO - Started process (PID=49437) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:07:59,016] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:07:59,017] {logging_mixin.py:115} INFO - [2022-11-07 13:07:59,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:07:59,245] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:07:59,294] {logging_mixin.py:115} INFO - [2022-11-07 13:07:59,294] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:07:59,340] {logging_mixin.py:115} INFO - [2022-11-07 13:07:59,340] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:07:59,367] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.356 seconds
+[2022-11-07 13:08:29,762] {processor.py:153} INFO - Started process (PID=49492) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:08:29,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:08:29,764] {logging_mixin.py:115} INFO - [2022-11-07 13:08:29,763] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:08:29,950] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:08:30,004] {logging_mixin.py:115} INFO - [2022-11-07 13:08:30,004] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:08:30,068] {logging_mixin.py:115} INFO - [2022-11-07 13:08:30,068] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:08:30,090] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.334 seconds
+[2022-11-07 13:09:00,487] {processor.py:153} INFO - Started process (PID=49554) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:09:00,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:09:00,489] {logging_mixin.py:115} INFO - [2022-11-07 13:09:00,489] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:09:00,678] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:09:00,718] {logging_mixin.py:115} INFO - [2022-11-07 13:09:00,718] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:09:00,763] {logging_mixin.py:115} INFO - [2022-11-07 13:09:00,763] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:09:00,793] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.313 seconds
+[2022-11-07 13:09:30,954] {processor.py:153} INFO - Started process (PID=49608) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:09:30,955] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:09:30,956] {logging_mixin.py:115} INFO - [2022-11-07 13:09:30,956] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:09:31,128] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:09:31,167] {logging_mixin.py:115} INFO - [2022-11-07 13:09:31,167] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:09:31,212] {logging_mixin.py:115} INFO - [2022-11-07 13:09:31,212] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:09:31,233] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.285 seconds
+[2022-11-07 13:10:01,656] {processor.py:153} INFO - Started process (PID=49662) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:10:01,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:10:01,663] {logging_mixin.py:115} INFO - [2022-11-07 13:10:01,663] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:10:02,063] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:10:02,127] {logging_mixin.py:115} INFO - [2022-11-07 13:10:02,127] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:10:02,190] {logging_mixin.py:115} INFO - [2022-11-07 13:10:02,190] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:10:02,225] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.580 seconds
+[2022-11-07 13:10:33,072] {processor.py:153} INFO - Started process (PID=49727) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:10:33,075] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:10:33,076] {logging_mixin.py:115} INFO - [2022-11-07 13:10:33,076] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:10:33,263] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:10:33,299] {logging_mixin.py:115} INFO - [2022-11-07 13:10:33,299] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:10:33,342] {logging_mixin.py:115} INFO - [2022-11-07 13:10:33,341] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:10:33,363] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.295 seconds
+[2022-11-07 13:11:03,599] {processor.py:153} INFO - Started process (PID=49781) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:11:03,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:11:03,604] {logging_mixin.py:115} INFO - [2022-11-07 13:11:03,604] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:11:03,799] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:11:03,835] {logging_mixin.py:115} INFO - [2022-11-07 13:11:03,835] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:11:03,877] {logging_mixin.py:115} INFO - [2022-11-07 13:11:03,877] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:11:03,899] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.305 seconds
+[2022-11-07 13:11:34,772] {processor.py:153} INFO - Started process (PID=49844) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:11:34,776] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:11:34,777] {logging_mixin.py:115} INFO - [2022-11-07 13:11:34,777] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:11:34,954] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:11:34,997] {logging_mixin.py:115} INFO - [2022-11-07 13:11:34,997] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:11:35,040] {logging_mixin.py:115} INFO - [2022-11-07 13:11:35,040] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:11:35,065] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.297 seconds
+[2022-11-07 13:12:05,281] {processor.py:153} INFO - Started process (PID=49898) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:12:05,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:12:05,282] {logging_mixin.py:115} INFO - [2022-11-07 13:12:05,282] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:12:05,483] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:12:05,525] {logging_mixin.py:115} INFO - [2022-11-07 13:12:05,525] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:12:05,567] {logging_mixin.py:115} INFO - [2022-11-07 13:12:05,566] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:12:05,592] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.315 seconds
+[2022-11-07 13:12:35,958] {processor.py:153} INFO - Started process (PID=49961) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:12:35,961] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:12:35,963] {logging_mixin.py:115} INFO - [2022-11-07 13:12:35,962] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:12:36,229] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:12:36,282] {logging_mixin.py:115} INFO - [2022-11-07 13:12:36,282] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:12:36,348] {logging_mixin.py:115} INFO - [2022-11-07 13:12:36,348] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:12:36,375] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.423 seconds
+[2022-11-07 13:13:06,957] {processor.py:153} INFO - Started process (PID=50015) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:13:06,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:13:06,963] {logging_mixin.py:115} INFO - [2022-11-07 13:13:06,963] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:13:07,187] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:13:07,237] {logging_mixin.py:115} INFO - [2022-11-07 13:13:07,236] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:13:07,290] {logging_mixin.py:115} INFO - [2022-11-07 13:13:07,290] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:13:07,316] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.363 seconds
+[2022-11-07 13:13:38,145] {processor.py:153} INFO - Started process (PID=50076) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:13:38,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:13:38,150] {logging_mixin.py:115} INFO - [2022-11-07 13:13:38,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:13:38,345] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:13:38,386] {logging_mixin.py:115} INFO - [2022-11-07 13:13:38,385] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:13:38,433] {logging_mixin.py:115} INFO - [2022-11-07 13:13:38,433] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:13:38,466] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.328 seconds
+[2022-11-07 13:14:09,427] {processor.py:153} INFO - Started process (PID=50132) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:14:09,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:14:09,432] {logging_mixin.py:115} INFO - [2022-11-07 13:14:09,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:14:09,636] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:14:09,684] {logging_mixin.py:115} INFO - [2022-11-07 13:14:09,684] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:14:09,735] {logging_mixin.py:115} INFO - [2022-11-07 13:14:09,735] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:14:09,761] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.339 seconds
+[2022-11-07 13:14:39,819] {processor.py:153} INFO - Started process (PID=50186) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:14:39,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:14:39,821] {logging_mixin.py:115} INFO - [2022-11-07 13:14:39,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:14:40,023] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:14:40,085] {logging_mixin.py:115} INFO - [2022-11-07 13:14:40,084] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:14:40,134] {logging_mixin.py:115} INFO - [2022-11-07 13:14:40,133] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:14:40,159] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.345 seconds
+[2022-11-07 13:15:10,583] {processor.py:153} INFO - Started process (PID=50249) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:15:10,584] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:15:10,585] {logging_mixin.py:115} INFO - [2022-11-07 13:15:10,585] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:15:10,770] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:15:10,813] {logging_mixin.py:115} INFO - [2022-11-07 13:15:10,812] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:15:10,870] {logging_mixin.py:115} INFO - [2022-11-07 13:15:10,869] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:15:10,896] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.319 seconds
+[2022-11-07 13:15:41,087] {processor.py:153} INFO - Started process (PID=50303) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:15:41,088] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:15:41,090] {logging_mixin.py:115} INFO - [2022-11-07 13:15:41,090] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:15:41,342] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:15:41,400] {logging_mixin.py:115} INFO - [2022-11-07 13:15:41,400] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:15:41,451] {logging_mixin.py:115} INFO - [2022-11-07 13:15:41,450] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:15:41,473] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.394 seconds
+[2022-11-07 13:16:11,884] {processor.py:153} INFO - Started process (PID=50367) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:16:11,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:16:11,890] {logging_mixin.py:115} INFO - [2022-11-07 13:16:11,890] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:16:12,119] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:16:12,167] {logging_mixin.py:115} INFO - [2022-11-07 13:16:12,167] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:16:12,228] {logging_mixin.py:115} INFO - [2022-11-07 13:16:12,228] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:16:12,257] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.379 seconds
+[2022-11-07 13:16:43,098] {processor.py:153} INFO - Started process (PID=50422) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:16:43,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:16:43,103] {logging_mixin.py:115} INFO - [2022-11-07 13:16:43,103] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:16:43,275] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:16:43,316] {logging_mixin.py:115} INFO - [2022-11-07 13:16:43,316] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:16:43,362] {logging_mixin.py:115} INFO - [2022-11-07 13:16:43,362] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:16:43,386] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.294 seconds
+[2022-11-07 13:17:13,475] {processor.py:153} INFO - Started process (PID=50476) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:17:13,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:17:13,480] {logging_mixin.py:115} INFO - [2022-11-07 13:17:13,480] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:17:13,659] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:17:13,696] {logging_mixin.py:115} INFO - [2022-11-07 13:17:13,696] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:17:13,738] {logging_mixin.py:115} INFO - [2022-11-07 13:17:13,738] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:17:13,763] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.292 seconds
+[2022-11-07 13:17:43,820] {processor.py:153} INFO - Started process (PID=50540) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:17:43,821] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:17:43,822] {logging_mixin.py:115} INFO - [2022-11-07 13:17:43,822] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:17:44,001] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:17:44,037] {logging_mixin.py:115} INFO - [2022-11-07 13:17:44,037] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:17:44,090] {logging_mixin.py:115} INFO - [2022-11-07 13:17:44,090] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:17:44,139] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.325 seconds
+[2022-11-07 13:18:14,689] {processor.py:153} INFO - Started process (PID=50593) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:18:14,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:18:14,691] {logging_mixin.py:115} INFO - [2022-11-07 13:18:14,691] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:18:14,880] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:18:14,916] {logging_mixin.py:115} INFO - [2022-11-07 13:18:14,916] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:18:14,958] {logging_mixin.py:115} INFO - [2022-11-07 13:18:14,958] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:18:14,983] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.299 seconds
+[2022-11-07 13:18:45,375] {processor.py:153} INFO - Started process (PID=50658) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:18:45,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:18:45,377] {logging_mixin.py:115} INFO - [2022-11-07 13:18:45,377] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:18:45,585] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:18:45,627] {logging_mixin.py:115} INFO - [2022-11-07 13:18:45,627] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:18:45,672] {logging_mixin.py:115} INFO - [2022-11-07 13:18:45,672] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:18:45,694] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.324 seconds
+[2022-11-07 13:19:15,785] {processor.py:153} INFO - Started process (PID=50712) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:19:15,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:19:15,787] {logging_mixin.py:115} INFO - [2022-11-07 13:19:15,787] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:19:15,966] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:19:16,007] {logging_mixin.py:115} INFO - [2022-11-07 13:19:16,007] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:19:16,047] {logging_mixin.py:115} INFO - [2022-11-07 13:19:16,047] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:19:16,067] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.289 seconds
+[2022-11-07 13:19:46,152] {processor.py:153} INFO - Started process (PID=50767) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:19:46,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:19:46,154] {logging_mixin.py:115} INFO - [2022-11-07 13:19:46,154] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:19:46,344] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:19:46,382] {logging_mixin.py:115} INFO - [2022-11-07 13:19:46,382] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:19:46,424] {logging_mixin.py:115} INFO - [2022-11-07 13:19:46,424] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:19:46,447] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.299 seconds
+[2022-11-07 13:20:16,739] {processor.py:153} INFO - Started process (PID=50828) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:20:16,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:20:16,744] {logging_mixin.py:115} INFO - [2022-11-07 13:20:16,744] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:20:16,922] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:20:16,965] {logging_mixin.py:115} INFO - [2022-11-07 13:20:16,965] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:20:17,007] {logging_mixin.py:115} INFO - [2022-11-07 13:20:17,007] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:20:17,031] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.298 seconds
+[2022-11-07 13:20:47,913] {processor.py:153} INFO - Started process (PID=50882) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:20:47,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:20:47,916] {logging_mixin.py:115} INFO - [2022-11-07 13:20:47,915] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:20:48,097] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:20:48,135] {logging_mixin.py:115} INFO - [2022-11-07 13:20:48,135] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:20:48,180] {logging_mixin.py:115} INFO - [2022-11-07 13:20:48,180] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:20:48,203] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.297 seconds
+[2022-11-07 13:21:19,064] {processor.py:153} INFO - Started process (PID=50945) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:21:19,065] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:21:19,066] {logging_mixin.py:115} INFO - [2022-11-07 13:21:19,066] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:21:19,295] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:21:19,342] {logging_mixin.py:115} INFO - [2022-11-07 13:21:19,341] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:21:19,400] {logging_mixin.py:115} INFO - [2022-11-07 13:21:19,400] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:21:19,431] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.373 seconds
+[2022-11-07 13:21:49,507] {processor.py:153} INFO - Started process (PID=50999) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:21:49,508] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:21:49,510] {logging_mixin.py:115} INFO - [2022-11-07 13:21:49,510] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:21:49,713] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:21:49,752] {logging_mixin.py:115} INFO - [2022-11-07 13:21:49,752] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:21:49,799] {logging_mixin.py:115} INFO - [2022-11-07 13:21:49,799] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:21:49,826] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.326 seconds
+[2022-11-07 13:22:20,145] {processor.py:153} INFO - Started process (PID=51053) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:22:20,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:22:20,150] {logging_mixin.py:115} INFO - [2022-11-07 13:22:20,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:22:20,335] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:22:20,375] {logging_mixin.py:115} INFO - [2022-11-07 13:22:20,374] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:22:20,415] {logging_mixin.py:115} INFO - [2022-11-07 13:22:20,415] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:22:20,436] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.297 seconds
+[2022-11-07 13:22:50,754] {processor.py:153} INFO - Started process (PID=51116) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:22:50,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:22:50,760] {logging_mixin.py:115} INFO - [2022-11-07 13:22:50,759] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:22:50,948] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:22:50,988] {logging_mixin.py:115} INFO - [2022-11-07 13:22:50,987] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:22:51,028] {logging_mixin.py:115} INFO - [2022-11-07 13:22:51,028] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:22:51,055] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.308 seconds
+[2022-11-07 13:23:21,112] {processor.py:153} INFO - Started process (PID=51172) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:23:21,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:23:21,114] {logging_mixin.py:115} INFO - [2022-11-07 13:23:21,114] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:23:21,311] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:23:21,350] {logging_mixin.py:115} INFO - [2022-11-07 13:23:21,350] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:23:21,397] {logging_mixin.py:115} INFO - [2022-11-07 13:23:21,397] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:23:21,421] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.316 seconds
+[2022-11-07 13:23:51,489] {processor.py:153} INFO - Started process (PID=51235) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:23:51,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:23:51,490] {logging_mixin.py:115} INFO - [2022-11-07 13:23:51,490] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:23:51,671] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:23:51,712] {logging_mixin.py:115} INFO - [2022-11-07 13:23:51,712] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:23:51,764] {logging_mixin.py:115} INFO - [2022-11-07 13:23:51,764] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:23:51,787] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.305 seconds
+[2022-11-07 13:24:22,491] {processor.py:153} INFO - Started process (PID=51288) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:24:22,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:24:22,493] {logging_mixin.py:115} INFO - [2022-11-07 13:24:22,493] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:24:22,707] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:24:22,756] {logging_mixin.py:115} INFO - [2022-11-07 13:24:22,755] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:24:22,806] {logging_mixin.py:115} INFO - [2022-11-07 13:24:22,806] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:24:22,834] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.348 seconds
+[2022-11-07 13:24:53,120] {processor.py:153} INFO - Started process (PID=51350) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:24:53,122] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:24:53,124] {logging_mixin.py:115} INFO - [2022-11-07 13:24:53,123] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:24:53,379] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:24:53,445] {logging_mixin.py:115} INFO - [2022-11-07 13:24:53,445] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:24:53,508] {logging_mixin.py:115} INFO - [2022-11-07 13:24:53,508] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:24:53,539] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.428 seconds
+[2022-11-07 13:25:23,963] {processor.py:153} INFO - Started process (PID=51404) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:25:23,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:25:23,965] {logging_mixin.py:115} INFO - [2022-11-07 13:25:23,965] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:25:24,155] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:25:24,196] {logging_mixin.py:115} INFO - [2022-11-07 13:25:24,196] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:25:24,239] {logging_mixin.py:115} INFO - [2022-11-07 13:25:24,239] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:25:24,261] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.304 seconds
+[2022-11-07 13:25:54,484] {processor.py:153} INFO - Started process (PID=51459) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:25:54,485] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:25:54,487] {logging_mixin.py:115} INFO - [2022-11-07 13:25:54,487] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:25:54,673] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:25:54,716] {logging_mixin.py:115} INFO - [2022-11-07 13:25:54,716] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:25:54,760] {logging_mixin.py:115} INFO - [2022-11-07 13:25:54,760] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:25:54,783] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.307 seconds
+[2022-11-07 13:26:24,953] {processor.py:153} INFO - Started process (PID=51523) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:26:24,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:26:24,959] {logging_mixin.py:115} INFO - [2022-11-07 13:26:24,959] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:26:25,233] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:26:25,291] {logging_mixin.py:115} INFO - [2022-11-07 13:26:25,291] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:26:25,353] {logging_mixin.py:115} INFO - [2022-11-07 13:26:25,353] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:26:25,379] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.432 seconds
+[2022-11-07 13:26:55,567] {processor.py:153} INFO - Started process (PID=51578) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:26:55,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:26:55,569] {logging_mixin.py:115} INFO - [2022-11-07 13:26:55,568] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:26:55,745] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:26:55,785] {logging_mixin.py:115} INFO - [2022-11-07 13:26:55,785] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:26:55,826] {logging_mixin.py:115} INFO - [2022-11-07 13:26:55,825] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:26:55,847] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.286 seconds
+[2022-11-07 13:27:26,079] {processor.py:153} INFO - Started process (PID=51641) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:27:26,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:27:26,084] {logging_mixin.py:115} INFO - [2022-11-07 13:27:26,084] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:27:26,264] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:27:26,304] {logging_mixin.py:115} INFO - [2022-11-07 13:27:26,304] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:27:26,350] {logging_mixin.py:115} INFO - [2022-11-07 13:27:26,349] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:27:26,379] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.307 seconds
+[2022-11-07 13:27:56,518] {processor.py:153} INFO - Started process (PID=51696) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:27:56,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:27:56,524] {logging_mixin.py:115} INFO - [2022-11-07 13:27:56,523] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:27:56,716] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:27:56,758] {logging_mixin.py:115} INFO - [2022-11-07 13:27:56,758] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:27:56,803] {logging_mixin.py:115} INFO - [2022-11-07 13:27:56,803] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:27:56,825] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.313 seconds
+[2022-11-07 13:28:27,027] {processor.py:153} INFO - Started process (PID=51750) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:28:27,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:28:27,033] {logging_mixin.py:115} INFO - [2022-11-07 13:28:27,032] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:28:27,229] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:28:27,267] {logging_mixin.py:115} INFO - [2022-11-07 13:28:27,267] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:28:27,313] {logging_mixin.py:115} INFO - [2022-11-07 13:28:27,313] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:28:27,337] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.317 seconds
+[2022-11-07 13:28:57,433] {processor.py:153} INFO - Started process (PID=51814) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:28:57,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:28:57,438] {logging_mixin.py:115} INFO - [2022-11-07 13:28:57,437] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:28:57,623] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:28:57,664] {logging_mixin.py:115} INFO - [2022-11-07 13:28:57,663] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:28:57,708] {logging_mixin.py:115} INFO - [2022-11-07 13:28:57,708] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:28:57,731] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.304 seconds
+[2022-11-07 13:29:28,427] {processor.py:153} INFO - Started process (PID=51868) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:29:28,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:29:28,433] {logging_mixin.py:115} INFO - [2022-11-07 13:29:28,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:29:28,674] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:29:28,714] {logging_mixin.py:115} INFO - [2022-11-07 13:29:28,714] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:29:28,761] {logging_mixin.py:115} INFO - [2022-11-07 13:29:28,761] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:29:28,784] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.364 seconds
+[2022-11-07 13:29:59,766] {processor.py:153} INFO - Started process (PID=51932) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:29:59,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:29:59,771] {logging_mixin.py:115} INFO - [2022-11-07 13:29:59,771] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:29:59,985] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:30:00,027] {logging_mixin.py:115} INFO - [2022-11-07 13:30:00,027] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:30:00,078] {logging_mixin.py:115} INFO - [2022-11-07 13:30:00,078] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:30:00,113] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.354 seconds
+[2022-11-07 13:30:30,425] {processor.py:153} INFO - Started process (PID=51986) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:30:30,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:30:30,427] {logging_mixin.py:115} INFO - [2022-11-07 13:30:30,426] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:30:30,602] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:30:30,641] {logging_mixin.py:115} INFO - [2022-11-07 13:30:30,641] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:30:30,684] {logging_mixin.py:115} INFO - [2022-11-07 13:30:30,684] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:30:30,705] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.286 seconds
+[2022-11-07 13:31:00,873] {processor.py:153} INFO - Started process (PID=52050) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:31:00,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:31:00,876] {logging_mixin.py:115} INFO - [2022-11-07 13:31:00,876] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:31:01,123] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:31:01,180] {logging_mixin.py:115} INFO - [2022-11-07 13:31:01,180] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:31:01,243] {logging_mixin.py:115} INFO - [2022-11-07 13:31:01,243] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:31:01,268] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.401 seconds
+[2022-11-07 13:31:31,997] {processor.py:153} INFO - Started process (PID=52105) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:31:32,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:31:32,002] {logging_mixin.py:115} INFO - [2022-11-07 13:31:32,002] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:31:32,197] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:31:32,240] {logging_mixin.py:115} INFO - [2022-11-07 13:31:32,240] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:31:32,289] {logging_mixin.py:115} INFO - [2022-11-07 13:31:32,289] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:31:32,311] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.318 seconds
+[2022-11-07 13:32:03,054] {processor.py:153} INFO - Started process (PID=52159) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:32:03,058] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:32:03,059] {logging_mixin.py:115} INFO - [2022-11-07 13:32:03,059] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:32:03,263] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:32:03,313] {logging_mixin.py:115} INFO - [2022-11-07 13:32:03,312] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:32:03,370] {logging_mixin.py:115} INFO - [2022-11-07 13:32:03,369] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:32:03,390] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.343 seconds
+[2022-11-07 13:32:33,504] {processor.py:153} INFO - Started process (PID=52222) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:32:33,505] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:32:33,506] {logging_mixin.py:115} INFO - [2022-11-07 13:32:33,505] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:32:33,675] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:32:33,718] {logging_mixin.py:115} INFO - [2022-11-07 13:32:33,718] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:32:33,763] {logging_mixin.py:115} INFO - [2022-11-07 13:32:33,763] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:32:33,788] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.289 seconds
+[2022-11-07 13:33:04,499] {processor.py:153} INFO - Started process (PID=52277) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:33:04,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:33:04,502] {logging_mixin.py:115} INFO - [2022-11-07 13:33:04,502] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:33:04,688] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:33:04,736] {logging_mixin.py:115} INFO - [2022-11-07 13:33:04,736] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:33:04,778] {logging_mixin.py:115} INFO - [2022-11-07 13:33:04,778] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:33:04,803] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.311 seconds
+[2022-11-07 13:33:35,664] {processor.py:153} INFO - Started process (PID=52340) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:33:35,665] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:33:35,666] {logging_mixin.py:115} INFO - [2022-11-07 13:33:35,666] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:33:35,844] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:33:35,892] {logging_mixin.py:115} INFO - [2022-11-07 13:33:35,892] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:33:35,938] {logging_mixin.py:115} INFO - [2022-11-07 13:33:35,938] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:33:35,961] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.301 seconds
+[2022-11-07 13:34:06,332] {processor.py:153} INFO - Started process (PID=52394) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:34:06,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:34:06,335] {logging_mixin.py:115} INFO - [2022-11-07 13:34:06,335] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:34:06,519] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:34:06,556] {logging_mixin.py:115} INFO - [2022-11-07 13:34:06,556] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:34:06,597] {logging_mixin.py:115} INFO - [2022-11-07 13:34:06,597] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:34:06,621] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.296 seconds
+[2022-11-07 13:34:37,619] {processor.py:153} INFO - Started process (PID=52457) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:34:37,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:34:37,621] {logging_mixin.py:115} INFO - [2022-11-07 13:34:37,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:34:37,784] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:34:37,828] {logging_mixin.py:115} INFO - [2022-11-07 13:34:37,827] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:34:37,877] {logging_mixin.py:115} INFO - [2022-11-07 13:34:37,877] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:34:37,899] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.285 seconds
+[2022-11-07 13:35:08,817] {processor.py:153} INFO - Started process (PID=52510) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:35:08,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:35:08,823] {logging_mixin.py:115} INFO - [2022-11-07 13:35:08,823] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:35:09,013] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:35:09,051] {logging_mixin.py:115} INFO - [2022-11-07 13:35:09,051] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:35:09,100] {logging_mixin.py:115} INFO - [2022-11-07 13:35:09,100] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:35:09,128] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.317 seconds
+[2022-11-07 13:35:39,271] {processor.py:153} INFO - Started process (PID=52574) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:35:39,272] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:35:39,273] {logging_mixin.py:115} INFO - [2022-11-07 13:35:39,272] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:35:39,454] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:35:39,493] {logging_mixin.py:115} INFO - [2022-11-07 13:35:39,493] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:35:39,537] {logging_mixin.py:115} INFO - [2022-11-07 13:35:39,537] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:35:39,559] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.292 seconds
+[2022-11-07 13:36:10,005] {processor.py:153} INFO - Started process (PID=52628) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:36:10,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:36:10,011] {logging_mixin.py:115} INFO - [2022-11-07 13:36:10,011] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:36:10,201] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:36:10,249] {logging_mixin.py:115} INFO - [2022-11-07 13:36:10,249] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:36:10,317] {logging_mixin.py:115} INFO - [2022-11-07 13:36:10,317] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:36:10,349] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.349 seconds
+[2022-11-07 13:36:40,454] {processor.py:153} INFO - Started process (PID=52692) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:36:40,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:36:40,459] {logging_mixin.py:115} INFO - [2022-11-07 13:36:40,459] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:36:40,639] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:36:40,683] {logging_mixin.py:115} INFO - [2022-11-07 13:36:40,683] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:36:40,727] {logging_mixin.py:115} INFO - [2022-11-07 13:36:40,727] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:36:40,748] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.300 seconds
+[2022-11-07 13:37:11,278] {processor.py:153} INFO - Started process (PID=52746) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:37:11,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:37:11,283] {logging_mixin.py:115} INFO - [2022-11-07 13:37:11,283] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:37:11,462] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:37:11,504] {logging_mixin.py:115} INFO - [2022-11-07 13:37:11,503] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:37:11,546] {logging_mixin.py:115} INFO - [2022-11-07 13:37:11,546] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:37:11,571] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.299 seconds
+[2022-11-07 13:37:41,624] {processor.py:153} INFO - Started process (PID=52806) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:37:41,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:37:41,630] {logging_mixin.py:115} INFO - [2022-11-07 13:37:41,629] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:37:41,925] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:37:41,980] {logging_mixin.py:115} INFO - [2022-11-07 13:37:41,979] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:37:42,036] {logging_mixin.py:115} INFO - [2022-11-07 13:37:42,036] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:37:42,064] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.445 seconds
+[2022-11-07 13:38:12,858] {processor.py:153} INFO - Started process (PID=52863) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:38:12,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:38:12,863] {logging_mixin.py:115} INFO - [2022-11-07 13:38:12,863] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:38:13,035] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:38:13,077] {logging_mixin.py:115} INFO - [2022-11-07 13:38:13,077] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:38:13,120] {logging_mixin.py:115} INFO - [2022-11-07 13:38:13,120] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:38:13,144] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.291 seconds
+[2022-11-07 13:38:43,980] {processor.py:153} INFO - Started process (PID=52917) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:38:43,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:38:43,985] {logging_mixin.py:115} INFO - [2022-11-07 13:38:43,985] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:38:44,173] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:38:44,223] {logging_mixin.py:115} INFO - [2022-11-07 13:38:44,223] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:38:44,284] {logging_mixin.py:115} INFO - [2022-11-07 13:38:44,284] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:38:44,311] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.339 seconds
+[2022-11-07 13:39:14,400] {processor.py:153} INFO - Started process (PID=52980) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:39:14,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:39:14,405] {logging_mixin.py:115} INFO - [2022-11-07 13:39:14,405] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:39:14,591] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:39:14,653] {logging_mixin.py:115} INFO - [2022-11-07 13:39:14,653] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:39:14,704] {logging_mixin.py:115} INFO - [2022-11-07 13:39:14,704] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:39:14,730] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.337 seconds
+[2022-11-07 13:39:45,696] {processor.py:153} INFO - Started process (PID=53034) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:39:45,700] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:39:45,701] {logging_mixin.py:115} INFO - [2022-11-07 13:39:45,701] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:39:45,898] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:39:45,946] {logging_mixin.py:115} INFO - [2022-11-07 13:39:45,946] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:39:45,992] {logging_mixin.py:115} INFO - [2022-11-07 13:39:45,992] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:39:46,016] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.326 seconds
+[2022-11-07 13:40:16,977] {processor.py:153} INFO - Started process (PID=53097) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:40:16,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:40:16,982] {logging_mixin.py:115} INFO - [2022-11-07 13:40:16,982] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:40:17,203] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:40:17,240] {logging_mixin.py:115} INFO - [2022-11-07 13:40:17,240] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:40:17,285] {logging_mixin.py:115} INFO - [2022-11-07 13:40:17,284] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:40:17,309] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.337 seconds
+[2022-11-07 13:40:48,313] {processor.py:153} INFO - Started process (PID=53151) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:40:48,317] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:40:48,319] {logging_mixin.py:115} INFO - [2022-11-07 13:40:48,319] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:40:48,505] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:40:48,542] {logging_mixin.py:115} INFO - [2022-11-07 13:40:48,542] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:40:48,585] {logging_mixin.py:115} INFO - [2022-11-07 13:40:48,584] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:40:48,606] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.299 seconds
+[2022-11-07 13:41:19,526] {processor.py:153} INFO - Started process (PID=53215) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:41:19,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:41:19,531] {logging_mixin.py:115} INFO - [2022-11-07 13:41:19,531] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:41:19,708] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:41:19,745] {logging_mixin.py:115} INFO - [2022-11-07 13:41:19,744] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:41:19,785] {logging_mixin.py:115} INFO - [2022-11-07 13:41:19,785] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:41:19,807] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.288 seconds
+[2022-11-07 13:41:50,514] {processor.py:153} INFO - Started process (PID=53269) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:41:50,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:41:50,520] {logging_mixin.py:115} INFO - [2022-11-07 13:41:50,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:41:50,708] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:41:50,755] {logging_mixin.py:115} INFO - [2022-11-07 13:41:50,755] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:41:50,810] {logging_mixin.py:115} INFO - [2022-11-07 13:41:50,810] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:41:50,840] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.332 seconds
+[2022-11-07 13:42:20,926] {processor.py:153} INFO - Started process (PID=53332) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:42:20,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:42:20,931] {logging_mixin.py:115} INFO - [2022-11-07 13:42:20,931] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:42:21,123] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:42:21,162] {logging_mixin.py:115} INFO - [2022-11-07 13:42:21,161] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:42:21,202] {logging_mixin.py:115} INFO - [2022-11-07 13:42:21,202] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:42:21,224] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.304 seconds
+[2022-11-07 13:42:51,477] {processor.py:153} INFO - Started process (PID=53386) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:42:51,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:42:51,481] {logging_mixin.py:115} INFO - [2022-11-07 13:42:51,481] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:42:51,679] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:42:51,717] {logging_mixin.py:115} INFO - [2022-11-07 13:42:51,717] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:42:51,761] {logging_mixin.py:115} INFO - [2022-11-07 13:42:51,761] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:42:51,784] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.313 seconds
+[2022-11-07 13:43:21,966] {processor.py:153} INFO - Started process (PID=53449) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:43:21,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:43:21,972] {logging_mixin.py:115} INFO - [2022-11-07 13:43:21,971] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:43:22,163] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:43:22,201] {logging_mixin.py:115} INFO - [2022-11-07 13:43:22,201] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:43:22,244] {logging_mixin.py:115} INFO - [2022-11-07 13:43:22,243] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:43:22,266] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.307 seconds
+[2022-11-07 13:43:52,413] {processor.py:153} INFO - Started process (PID=53504) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:43:52,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:43:52,415] {logging_mixin.py:115} INFO - [2022-11-07 13:43:52,415] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:43:52,591] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:43:52,627] {logging_mixin.py:115} INFO - [2022-11-07 13:43:52,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:43:52,672] {logging_mixin.py:115} INFO - [2022-11-07 13:43:52,671] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:43:52,693] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.286 seconds
+[2022-11-07 13:44:22,811] {processor.py:153} INFO - Started process (PID=53558) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:44:22,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:44:22,816] {logging_mixin.py:115} INFO - [2022-11-07 13:44:22,816] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:44:23,003] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:44:23,043] {logging_mixin.py:115} INFO - [2022-11-07 13:44:23,043] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:44:23,091] {logging_mixin.py:115} INFO - [2022-11-07 13:44:23,091] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:44:23,123] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.318 seconds
+[2022-11-07 13:44:53,532] {processor.py:153} INFO - Started process (PID=53623) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:44:53,535] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:44:53,536] {logging_mixin.py:115} INFO - [2022-11-07 13:44:53,536] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:44:53,711] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:44:53,753] {logging_mixin.py:115} INFO - [2022-11-07 13:44:53,753] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:44:53,800] {logging_mixin.py:115} INFO - [2022-11-07 13:44:53,800] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:44:53,843] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.317 seconds
+[2022-11-07 13:45:24,693] {processor.py:153} INFO - Started process (PID=53677) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:45:24,693] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:45:24,694] {logging_mixin.py:115} INFO - [2022-11-07 13:45:24,694] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:45:24,859] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:45:24,900] {logging_mixin.py:115} INFO - [2022-11-07 13:45:24,900] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:45:24,951] {logging_mixin.py:115} INFO - [2022-11-07 13:45:24,951] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:45:24,984] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.296 seconds
+[2022-11-07 13:45:56,040] {processor.py:153} INFO - Started process (PID=53740) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:45:56,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:45:56,046] {logging_mixin.py:115} INFO - [2022-11-07 13:45:56,045] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:45:56,302] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:45:56,347] {logging_mixin.py:115} INFO - [2022-11-07 13:45:56,347] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:45:56,399] {logging_mixin.py:115} INFO - [2022-11-07 13:45:56,399] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:45:56,426] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.392 seconds
+[2022-11-07 13:46:26,620] {processor.py:153} INFO - Started process (PID=53794) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:46:26,624] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:46:26,626] {logging_mixin.py:115} INFO - [2022-11-07 13:46:26,625] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:46:26,803] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:46:26,844] {logging_mixin.py:115} INFO - [2022-11-07 13:46:26,844] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:46:26,901] {logging_mixin.py:115} INFO - [2022-11-07 13:46:26,901] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:46:26,926] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.310 seconds
+[2022-11-07 13:46:57,720] {processor.py:153} INFO - Started process (PID=53849) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:46:57,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:46:57,726] {logging_mixin.py:115} INFO - [2022-11-07 13:46:57,725] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:46:57,932] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:46:57,976] {logging_mixin.py:115} INFO - [2022-11-07 13:46:57,976] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:46:58,025] {logging_mixin.py:115} INFO - [2022-11-07 13:46:58,025] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:46:58,061] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.349 seconds
+[2022-11-07 13:47:28,814] {processor.py:153} INFO - Started process (PID=53912) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:47:28,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:47:28,821] {logging_mixin.py:115} INFO - [2022-11-07 13:47:28,820] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:47:29,035] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:47:29,077] {logging_mixin.py:115} INFO - [2022-11-07 13:47:29,077] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:47:29,127] {logging_mixin.py:115} INFO - [2022-11-07 13:47:29,127] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:47:29,157] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.350 seconds
+[2022-11-07 13:47:59,427] {processor.py:153} INFO - Started process (PID=53966) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:47:59,430] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:47:59,431] {logging_mixin.py:115} INFO - [2022-11-07 13:47:59,431] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:47:59,630] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:47:59,676] {logging_mixin.py:115} INFO - [2022-11-07 13:47:59,675] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:47:59,733] {logging_mixin.py:115} INFO - [2022-11-07 13:47:59,733] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:47:59,761] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.340 seconds
+[2022-11-07 13:48:30,073] {processor.py:153} INFO - Started process (PID=54028) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:48:30,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:48:30,078] {logging_mixin.py:115} INFO - [2022-11-07 13:48:30,078] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:48:30,297] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:48:30,385] {logging_mixin.py:115} INFO - [2022-11-07 13:48:30,385] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:48:30,482] {logging_mixin.py:115} INFO - [2022-11-07 13:48:30,482] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:48:30,520] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.452 seconds
+[2022-11-07 13:49:00,788] {processor.py:153} INFO - Started process (PID=54084) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:49:00,789] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:49:00,791] {logging_mixin.py:115} INFO - [2022-11-07 13:49:00,790] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:49:01,043] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:49:01,094] {logging_mixin.py:115} INFO - [2022-11-07 13:49:01,094] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:49:01,147] {logging_mixin.py:115} INFO - [2022-11-07 13:49:01,147] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:49:01,181] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.404 seconds
+[2022-11-07 13:49:31,733] {processor.py:153} INFO - Started process (PID=54138) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:49:31,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:49:31,736] {logging_mixin.py:115} INFO - [2022-11-07 13:49:31,736] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:49:31,962] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:49:32,007] {logging_mixin.py:115} INFO - [2022-11-07 13:49:32,007] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:49:32,053] {logging_mixin.py:115} INFO - [2022-11-07 13:49:32,053] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:49:32,079] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.354 seconds
+[2022-11-07 13:50:02,282] {processor.py:153} INFO - Started process (PID=54192) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:50:02,286] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:50:02,287] {logging_mixin.py:115} INFO - [2022-11-07 13:50:02,287] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:50:02,678] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:50:02,753] {logging_mixin.py:115} INFO - [2022-11-07 13:50:02,753] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:50:02,840] {logging_mixin.py:115} INFO - [2022-11-07 13:50:02,840] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:50:02,873] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.602 seconds
+[2022-11-07 13:50:33,508] {processor.py:153} INFO - Started process (PID=54255) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:50:33,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:50:33,513] {logging_mixin.py:115} INFO - [2022-11-07 13:50:33,513] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:50:33,688] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:50:33,726] {logging_mixin.py:115} INFO - [2022-11-07 13:50:33,726] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:50:33,771] {logging_mixin.py:115} INFO - [2022-11-07 13:50:33,771] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:50:33,793] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.291 seconds
+[2022-11-07 13:51:03,917] {processor.py:153} INFO - Started process (PID=54309) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:51:03,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:51:03,922] {logging_mixin.py:115} INFO - [2022-11-07 13:51:03,922] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:51:04,207] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:51:04,283] {logging_mixin.py:115} INFO - [2022-11-07 13:51:04,283] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:51:04,345] {logging_mixin.py:115} INFO - [2022-11-07 13:51:04,345] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:51:04,369] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.458 seconds
+[2022-11-07 13:51:34,515] {processor.py:153} INFO - Started process (PID=54372) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:51:34,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:51:34,519] {logging_mixin.py:115} INFO - [2022-11-07 13:51:34,518] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:51:34,739] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:51:34,785] {logging_mixin.py:115} INFO - [2022-11-07 13:51:34,784] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:51:34,842] {logging_mixin.py:115} INFO - [2022-11-07 13:51:34,842] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:51:34,873] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.366 seconds
+[2022-11-07 13:52:05,383] {processor.py:153} INFO - Started process (PID=54427) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:52:05,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:52:05,388] {logging_mixin.py:115} INFO - [2022-11-07 13:52:05,388] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:52:05,587] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:52:05,638] {logging_mixin.py:115} INFO - [2022-11-07 13:52:05,637] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:52:05,708] {logging_mixin.py:115} INFO - [2022-11-07 13:52:05,708] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:52:05,738] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.360 seconds
+[2022-11-07 13:52:35,808] {processor.py:153} INFO - Started process (PID=54481) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:52:35,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:52:35,810] {logging_mixin.py:115} INFO - [2022-11-07 13:52:35,810] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:52:36,050] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:52:36,093] {logging_mixin.py:115} INFO - [2022-11-07 13:52:36,093] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:52:36,147] {logging_mixin.py:115} INFO - [2022-11-07 13:52:36,147] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:52:36,177] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.375 seconds
+[2022-11-07 13:53:07,000] {processor.py:153} INFO - Started process (PID=54545) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:53:07,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:53:07,002] {logging_mixin.py:115} INFO - [2022-11-07 13:53:07,002] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:53:07,230] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:53:07,283] {logging_mixin.py:115} INFO - [2022-11-07 13:53:07,283] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:53:07,352] {logging_mixin.py:115} INFO - [2022-11-07 13:53:07,352] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:53:07,380] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.387 seconds
+[2022-11-07 13:53:37,876] {processor.py:153} INFO - Started process (PID=54599) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:53:37,881] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:53:37,882] {logging_mixin.py:115} INFO - [2022-11-07 13:53:37,882] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:53:38,179] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:53:38,233] {logging_mixin.py:115} INFO - [2022-11-07 13:53:38,233] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:53:38,308] {logging_mixin.py:115} INFO - [2022-11-07 13:53:38,307] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:53:38,340] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.469 seconds
+[2022-11-07 13:54:08,661] {processor.py:153} INFO - Started process (PID=54652) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:54:08,665] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:54:08,667] {logging_mixin.py:115} INFO - [2022-11-07 13:54:08,666] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:54:08,929] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:54:08,984] {logging_mixin.py:115} INFO - [2022-11-07 13:54:08,983] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:54:09,061] {logging_mixin.py:115} INFO - [2022-11-07 13:54:09,060] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:54:09,100] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.445 seconds
+[2022-11-07 13:54:39,899] {processor.py:153} INFO - Started process (PID=54715) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:54:39,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:54:39,905] {logging_mixin.py:115} INFO - [2022-11-07 13:54:39,905] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:54:40,101] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:54:40,140] {logging_mixin.py:115} INFO - [2022-11-07 13:54:40,140] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:54:40,185] {logging_mixin.py:115} INFO - [2022-11-07 13:54:40,185] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:54:40,206] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.312 seconds
+[2022-11-07 13:55:10,277] {processor.py:153} INFO - Started process (PID=54768) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:55:10,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:55:10,282] {logging_mixin.py:115} INFO - [2022-11-07 13:55:10,282] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:55:10,467] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:55:10,506] {logging_mixin.py:115} INFO - [2022-11-07 13:55:10,506] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:55:10,548] {logging_mixin.py:115} INFO - [2022-11-07 13:55:10,548] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:55:10,570] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.299 seconds
+[2022-11-07 13:55:41,026] {processor.py:153} INFO - Started process (PID=54822) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:55:41,030] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:55:41,032] {logging_mixin.py:115} INFO - [2022-11-07 13:55:41,032] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:55:41,318] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:55:41,382] {logging_mixin.py:115} INFO - [2022-11-07 13:55:41,381] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:55:41,450] {logging_mixin.py:115} INFO - [2022-11-07 13:55:41,450] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:55:41,487] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.467 seconds
+[2022-11-07 13:56:12,431] {processor.py:153} INFO - Started process (PID=54887) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:56:12,435] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:56:12,437] {logging_mixin.py:115} INFO - [2022-11-07 13:56:12,436] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:56:12,681] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:56:12,731] {logging_mixin.py:115} INFO - [2022-11-07 13:56:12,731] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:56:12,791] {logging_mixin.py:115} INFO - [2022-11-07 13:56:12,791] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:56:12,820] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.397 seconds
+[2022-11-07 13:56:42,888] {processor.py:153} INFO - Started process (PID=54941) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:56:42,892] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:56:42,893] {logging_mixin.py:115} INFO - [2022-11-07 13:56:42,893] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:56:43,081] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:56:43,117] {logging_mixin.py:115} INFO - [2022-11-07 13:56:43,117] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:56:43,162] {logging_mixin.py:115} INFO - [2022-11-07 13:56:43,162] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:56:43,183] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.300 seconds
+[2022-11-07 13:57:13,584] {processor.py:153} INFO - Started process (PID=54995) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:57:13,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:57:13,589] {logging_mixin.py:115} INFO - [2022-11-07 13:57:13,589] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:57:13,787] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:57:13,825] {logging_mixin.py:115} INFO - [2022-11-07 13:57:13,825] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:57:13,873] {logging_mixin.py:115} INFO - [2022-11-07 13:57:13,873] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:57:13,896] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.319 seconds
+[2022-11-07 13:57:44,004] {processor.py:153} INFO - Started process (PID=55058) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:57:44,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:57:44,009] {logging_mixin.py:115} INFO - [2022-11-07 13:57:44,009] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:57:44,204] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:57:44,244] {logging_mixin.py:115} INFO - [2022-11-07 13:57:44,244] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:57:44,291] {logging_mixin.py:115} INFO - [2022-11-07 13:57:44,291] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:57:44,315] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.319 seconds
+[2022-11-07 13:58:15,267] {processor.py:153} INFO - Started process (PID=55112) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:58:15,270] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:58:15,271] {logging_mixin.py:115} INFO - [2022-11-07 13:58:15,271] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:58:15,446] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:58:15,484] {logging_mixin.py:115} INFO - [2022-11-07 13:58:15,484] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:58:15,529] {logging_mixin.py:115} INFO - [2022-11-07 13:58:15,529] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:58:15,550] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.289 seconds
+[2022-11-07 13:58:46,314] {processor.py:153} INFO - Started process (PID=55175) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:58:46,317] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:58:46,318] {logging_mixin.py:115} INFO - [2022-11-07 13:58:46,318] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:58:46,513] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:58:46,557] {logging_mixin.py:115} INFO - [2022-11-07 13:58:46,557] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:58:46,617] {logging_mixin.py:115} INFO - [2022-11-07 13:58:46,616] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:58:46,643] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.335 seconds
+[2022-11-07 13:59:17,278] {processor.py:153} INFO - Started process (PID=55229) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:59:17,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:59:17,281] {logging_mixin.py:115} INFO - [2022-11-07 13:59:17,280] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:59:17,469] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:59:17,513] {logging_mixin.py:115} INFO - [2022-11-07 13:59:17,513] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:59:17,561] {logging_mixin.py:115} INFO - [2022-11-07 13:59:17,561] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:59:17,584] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.313 seconds
+[2022-11-07 13:59:47,732] {processor.py:153} INFO - Started process (PID=55291) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:59:47,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 13:59:47,735] {logging_mixin.py:115} INFO - [2022-11-07 13:59:47,735] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:59:47,940] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 13:59:47,985] {logging_mixin.py:115} INFO - [2022-11-07 13:59:47,984] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 13:59:48,046] {logging_mixin.py:115} INFO - [2022-11-07 13:59:48,045] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T12:00:00+00:00, run_after=2022-11-07T13:00:00+00:00
+[2022-11-07 13:59:48,073] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.348 seconds
+[2022-11-07 22:22:28,776] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 22:22:28,782] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
+[2022-11-07 22:22:28,784] {logging_mixin.py:115} INFO - [2022-11-07 22:22:28,783] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 22:22:29,566] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
+[2022-11-07 22:22:29,612] {logging_mixin.py:115} INFO - [2022-11-07 22:22:29,612] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-11-07 22:22:29,683] {logging_mixin.py:115} INFO - [2022-11-07 22:22:29,683] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-11-07T21:00:00+00:00, run_after=2022-11-07T22:00:00+00:00
+[2022-11-07 22:22:29,718] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.960 seconds

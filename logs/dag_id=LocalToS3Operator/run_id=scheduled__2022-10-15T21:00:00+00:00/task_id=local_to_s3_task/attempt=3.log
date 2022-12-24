@@ -1,0 +1,54 @@
+[2022-10-15 22:41:36,368] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: LocalToS3Operator.local_to_s3_task scheduled__2022-10-15T21:00:00+00:00 [queued]>
+[2022-10-15 22:41:36,381] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: LocalToS3Operator.local_to_s3_task scheduled__2022-10-15T21:00:00+00:00 [queued]>
+[2022-10-15 22:41:36,381] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 22:41:36,381] {taskinstance.py:1377} INFO - Starting attempt 3 of 3
+[2022-10-15 22:41:36,382] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 22:41:36,401] {taskinstance.py:1397} INFO - Executing <Task(LocalFilesystemToS3Operator): local_to_s3_task> on 2022-10-15 21:00:00+00:00
+[2022-10-15 22:41:36,406] {standard_task_runner.py:52} INFO - Started process 14596 to run task
+[2022-10-15 22:41:36,411] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'LocalToS3Operator', 'local_to_s3_task', 'scheduled__2022-10-15T21:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/extract_data_from_ftp_to_s3.py', '--cfg-path', '/tmp/tmpkk9qrcva', '--error-file', '/tmp/tmpz03_go55']
+[2022-10-15 22:41:36,412] {standard_task_runner.py:80} INFO - Job 77: Subtask local_to_s3_task
+[2022-10-15 22:41:36,488] {task_command.py:371} INFO - Running <TaskInstance: LocalToS3Operator.local_to_s3_task scheduled__2022-10-15T21:00:00+00:00 [running]> on host e1202d78ead4
+[2022-10-15 22:41:36,591] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalToS3Operator
+AIRFLOW_CTX_TASK_ID=local_to_s3_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T21:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-15T21:00:00+00:00
+[2022-10-15 22:41:36,605] {base.py:68} INFO - Using connection ID 's3_conn' for task execution.
+[2022-10-15 22:41:36,606] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-10-15 22:41:36,670] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/transfers/local_to_s3.py", line 105, in execute
+    self.acl_policy,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 63, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 91, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 611, in load_file
+    client.upload_file(filename, bucket_name, key, ExtraArgs=extra_args, Config=self.transfer_config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 148, in upload_file
+    callback=Callback,
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/transfer.py", line 288, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 269, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 585, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 244, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/utils.py", line 247, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/local/lib/python3.7/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+[2022-10-15 22:41:36,683] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=LocalToS3Operator, task_id=local_to_s3_task, execution_date=20221015T210000, start_date=20221015T224136, end_date=20221015T224136
+[2022-10-15 22:41:36,698] {standard_task_runner.py:97} ERROR - Failed to execute job 77 for task local_to_s3_task ([Errno 2] No such file or directory: 'test.txt'; 14596)
+[2022-10-15 22:41:36,741] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-15 22:41:36,791] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

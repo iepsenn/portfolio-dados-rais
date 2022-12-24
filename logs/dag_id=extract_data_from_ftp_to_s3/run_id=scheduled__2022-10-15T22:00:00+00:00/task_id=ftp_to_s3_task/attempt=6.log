@@ -1,0 +1,28 @@
+[2022-10-16 00:06:19,274] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: extract_data_from_ftp_to_s3.ftp_to_s3_task scheduled__2022-10-15T22:00:00+00:00 [queued]>
+[2022-10-16 00:06:19,286] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: extract_data_from_ftp_to_s3.ftp_to_s3_task scheduled__2022-10-15T22:00:00+00:00 [queued]>
+[2022-10-16 00:06:19,286] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-16 00:06:19,286] {taskinstance.py:1377} INFO - Starting attempt 6 of 6
+[2022-10-16 00:06:19,286] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-16 00:06:19,302] {taskinstance.py:1397} INFO - Executing <Task(FTPToS3Operator): ftp_to_s3_task> on 2022-10-15 22:00:00+00:00
+[2022-10-16 00:06:19,308] {standard_task_runner.py:52} INFO - Started process 18508 to run task
+[2022-10-16 00:06:19,313] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'extract_data_from_ftp_to_s3', 'ftp_to_s3_task', 'scheduled__2022-10-15T22:00:00+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/extract_data_from_ftp_to_s3.py', '--cfg-path', '/tmp/tmpcjhxholp', '--error-file', '/tmp/tmpo725pzuv']
+[2022-10-16 00:06:19,313] {standard_task_runner.py:80} INFO - Job 104: Subtask ftp_to_s3_task
+[2022-10-16 00:06:19,387] {task_command.py:371} INFO - Running <TaskInstance: extract_data_from_ftp_to_s3.ftp_to_s3_task scheduled__2022-10-15T22:00:00+00:00 [running]> on host e1202d78ead4
+[2022-10-16 00:06:19,474] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=extract_data_from_ftp_to_s3
+AIRFLOW_CTX_TASK_ID=ftp_to_s3_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T22:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=6
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-15T22:00:00+00:00
+[2022-10-16 00:06:19,487] {base.py:68} INFO - Using connection ID 'ftp_default' for task execution.
+[2022-10-16 00:06:20,107] {ftp.py:184} INFO - Retrieving file from FTP: /pdet/microdados/NOVO CAGED/2020/202002/CAGEDFOR202002.7z
+[2022-10-16 00:06:22,198] {ftp.py:186} INFO - Finished retrieving file from FTP: /pdet/microdados/NOVO CAGED/2020/202002/CAGEDFOR202002.7z
+[2022-10-16 00:06:22,209] {base.py:68} INFO - Using connection ID 'local_minio' for task execution.
+[2022-10-16 00:06:22,212] {base_aws.py:210} INFO - Credentials retrieved from extra_config
+[2022-10-16 00:06:22,345] {ftp_to_s3.py:111} INFO - File upload to raw/2022/b.7z
+[2022-10-16 00:06:22,364] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=extract_data_from_ftp_to_s3, task_id=ftp_to_s3_task, execution_date=20221015T220000, start_date=20221016T000619, end_date=20221016T000622
+[2022-10-16 00:06:22,411] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-16 00:06:22,454] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
