@@ -1,7 +1,0 @@
-[2022-10-26 21:18:05,538] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/extract_data_from_ftp_to_s3.py
-[2022-10-26 21:18:05,539] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_data_from_ftp_to_s3.py for tasks to queue
-[2022-10-26 21:18:05,540] {logging_mixin.py:115} INFO - [2022-10-26 21:18:05,539] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
-[2022-10-26 21:18:06,229] {processor.py:651} INFO - DAG(s) dict_keys(['extract_data_from_ftp_to_s3']) retrieved from /opt/airflow/dags/extract_data_from_ftp_to_s3.py
-[2022-10-26 21:18:06,264] {logging_mixin.py:115} INFO - [2022-10-26 21:18:06,264] {dag.py:2420} INFO - Sync 1 DAGs
-[2022-10-26 21:18:06,312] {logging_mixin.py:115} INFO - [2022-10-26 21:18:06,311] {dag.py:2972} INFO - Setting next_dagrun for extract_data_from_ftp_to_s3 to 2022-10-26T20:00:00+00:00, run_after=2022-10-26T21:00:00+00:00
-[2022-10-26 21:18:06,340] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_data_from_ftp_to_s3.py took 0.806 seconds
